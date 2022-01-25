@@ -40,12 +40,23 @@
 									</header>
 									<a href="#" class="image fit"><img src="images/eyes.jpg" alt="" /></a>
 									<p>Eyes will follow the cursor</p>
+									<!-- 
 									<ul class="actions special">
-									
-										<li>	<button type="button" onclick="alert('Future Improvements: Make each eye move independently.')">ReadMe</button></li>
- 
-										<li><a href="https://davemeador.github.io/eyes/" target="_blank" class="button">Try it</a></li>
+										<li><a onclick="alert('Title: Eyes Movement, Eyes will follow cursor movement over the screen.  To run simply move the cursor over the screen.  Eyes will look at the cursor. <br>  To run create Eyes folder, load with eyes.js, styles.css and index.html.  Execute the index.html,
+											 Future Improvement: Make each eye move independently.')" class="button">ReadMe</a></li>
 									</ul>
+									-->
+									
+									
+									<button onclick="readMeEyes()">ReadMe</button>
+										<script>
+										function readMeEyes() {
+										alert("Title: Eyes Movement, Eyes will follow cursor movement over the screen. To run simply move the cursor over the screen. Future Improvement: Make each eye move independently. To run create Eyes folder, load with eyes.js, styles.css and index.html.  Execute the index.html");
+										}
+										</script>	
+									
+									<a href="https://davemeador.github.io/eyes/" target="_blank" class="button">Try it</a>
+
 								</article>
 
 								<article>
@@ -57,9 +68,17 @@
 									<p>Bus tracker showing bus stops <br>
 									from MIT campus to Harvard</p>
 									<ul class="actions special">
-										<li><a href="https://davemeador.github.io/mapanimation/" target="_blank" class="button" target="_blank">Try it</a></li>
+										<button onclick="readMeMap()">ReadMe</button>
+										<script>
+											function readMeMap() {
+											alert("Title: Real Time Bus Tracker, Map of area covering Harvard and MIT camuses. To run click the action button at the top. Future Improvement: Add other cities. To run create Map folder, load with mapanimation.js, styles.css and index.html.  Execute the index.html");
+										}
+										</script>	
+
+										<li><a href="https://davemeador.github.io/mapanimation/" target="_blank" class="button">Try it</a></li>
 									</ul>
 								</article>
+
 								<article>
 									<header>
 										<article>
@@ -68,7 +87,15 @@
 										</header>
 										<a href="#" class="image fit"><img src="images/PacMan.jpg" alt="" /></a>
 										<ul class="actions special">
-											<li><a href="https://davemeador.github.io/pacmen/" target="_blank" class="button large">Try it</a></li>
+									
+											<button onclick="readMePacMen()">ReadMe</button>
+											<script>
+												function readMePacMen() {
+												alert("Title: PacMen Exercise. To run click Add PacMan, click Start Game buttons at the top. Click Stop to Stop. Future Improvement: Add other PacMan images for closed mouth and reverse direction. To run create Pacmen folder, load with images folder, pacmen.js, and index.html.  Execute the index.html");
+											}
+											</script>	
+
+											<li><a href="https://davemeador.github.io/pacmen/" target="_blank" class="button">Try it</a></li>
 										</ul>
 								</article>
 
@@ -78,13 +105,31 @@
 									<a href="#" class="image fit"><img src="images/brownBear.jpg" alt="" /></a>
 									<p>Created using only HTML.  No CSS and No Javascript  </p>
 									<ul class="actions special">
+
+										<button onclick="readMeBrownBear()">ReadMe</button>
+										<script>
+											function readMeBrownBear() {
+											alert("Title: Brown Bear web page. Example of a web page created using HTML only. To run create Pacmen folder, load with images folder, pacmen.js, and index.html.  Execute the index.html");
+										}
+										</script>	
+
 										<li><a href="https://davemeador.github.io/brownbear/" target="_blank" class="button">Display</a></li>
 									</ul>
 								</article>						
 
-								
+						
 
 					</div>
+
+				<!-- ReadMe -->
+
+				<h3 id="EyesReadMe">
+					<p>Both eyes will follow your cursor as it's moved around the screen. 
+						
+						Future improvement: Move each eye independently.
+
+					</p>	
+				</h3>
 
 				<!-- Footer -->
 					<footer id="footer">
